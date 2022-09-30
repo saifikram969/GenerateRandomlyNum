@@ -1,0 +1,19 @@
+public class genreratedRandomlyNum {
+    public static void main(String[] args) {
+
+        int min = 0;
+        int max = 10;
+        double x = Math.random()*(max-min+1)+min;
+        double y = Math.random()*(max-min+1)+min;
+        double mul = x*y;
+        double userVoice = 47.306955;
+        if (mul == userVoice) {
+            System.out.println("Correct user voice " + mul);
+        }
+        else {
+            System.out.println("InCorrect user voice " + mul);
+
+        }
+
+    }
+}
